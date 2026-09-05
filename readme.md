@@ -1,17 +1,17 @@
-#Thinker Tinker Tech Webiste
-##Author: Luke Johnson
-##Info:
-This webiste is developed in php using the MVC arthitecture.
-Front end uses HTML, CSS, and JavaScript.
-##Template used for MVC architecture:
-https://github.com/tjjoris/PHP-MVC
-##Reference tutorial used in early development.: 
-https://youtube.com/playlist?list=PLfdtiltiRHWGXVHXX09fxXDi-DqInchFD&si=aI-J_SOajJ9d07-J
-
-##Timeline:
-~~Week 1:	
-	finish mvc template 
-Week 2-3: 
+# Thinker Tinker Tech Webiste\
+## Author: Luke Johnson\
+## Info:\
+This webiste is developed in php using the MVC arthitecture.\
+Front end uses HTML, CSS, and JavaScript.\
+## Template used for MVC architecture:
+https://github.com/tjjoris/PHP-MVC\
+##Reference tutorial used in early development.: \
+https://youtube.com/playlist?list=PLfdtiltiRHWGXVHXX09fxXDi-DqInchFD&si=aI-J_SOajJ9d07-J \
+\
+## Timeline: \
+~~- Week 1: \	
+	- finish mvc template 
+- Week 2-3: 
 	Use template for thinker tinker tech.~~
 	Convert to use Users, Products, Tests, Reviews, and Info models.
 	implement basic controller logic.
