@@ -33,7 +33,7 @@ https://youtube.com/playlist?list=PLfdtiltiRHWGXVHXX09fxXDi-DqInchFD&si=aI-J_SOa
 - ~~Aug 16~~
 - ~~Aug 23~~
 - ~~Aug 30~~
-- Sept 6 
+- ~~Sept 6~~
 - Sept 13
 - Sept 20
 - Sept 27
@@ -53,6 +53,8 @@ https://youtube.com/playlist?list=PLfdtiltiRHWGXVHXX09fxXDi-DqInchFD&si=aI-J_SOa
 
 ## Progress notes:
 3 weeks behind schedule because scope of template got expanded.
+1 additional week behind shedule due to illness.
+4 weeks behind schedule total.
 
 
 ## setup during deployment:
