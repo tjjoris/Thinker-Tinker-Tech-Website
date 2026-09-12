@@ -66,14 +66,14 @@ This uses the Content Block Pattern which most modern Content Management Systems
 
 ### Attributes used in main page table.
 main_page
-    block_type
-    text
-    sort_order
-    printer_name
-    printer_price
-    printer_description
-    image
-    link
+    - block_type
+    - text
+    - sort_order
+    - printer_name
+    - printer_price
+    - printer_description
+    - image
+    - link
 
 ## Process for User to edit website:
 - The entire webiste is composed of blocks, each one can be one the following: title, heading, subheading, paragraph, image, printer, button, or break. 
