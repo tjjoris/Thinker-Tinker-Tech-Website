@@ -52,19 +52,19 @@ https://youtube.com/playlist?list=PLfdtiltiRHWGXVHXX09fxXDi-DqInchFD&si=aI-J_SOa
 - Dec 27
 
 ## Progress notes:
-3 weeks behind schedule because scope of template got expanded.
-1 additional week behind shedule due to illness.
-4 weeks behind schedule total.
-Additional time has been necessary to redesign the database structure before creating it.
+3 weeks behind schedule because scope of template got expanded. \
+1 additional week behind shedule due to illness. \
+4 weeks behind schedule total. \
+Additional time has been necessary to redesign the database structure before creating it. 
 
-## setup during deployment:
+## Setup during deployment:
 composer require vlucas/phpdotenv
 .env goes in project root.
 
-## website data breakdown:
-this uses the Content Block Pattern, which most moderns Content Management Systems use the Class-Table Inheritance Shape, was a more relational approach which avoids nullable fields but more complicated.
+## Website data breakdown:
+This uses the Content Block Pattern which most modern Content Management Systems use. The Class-Table Inheritance Shape, is a more relational approach which avoids nullable fields but requires more complex queries.
 
-### table used in main page:
+### Attributes used in main page table.
 main_page
     block_type
     text
@@ -75,16 +75,16 @@ main_page
     image
     link
 
-### notes:
-The entire webiste is composed of blocks, each one can be one the following: title, heading, subheading, paragraph, image, printer, button, or break. \
-You can add, edit, or remove a block. \
-Once a block is added a dropdown selects it's block type. \
-If it's a title, heading, subheading, paragraph, there is a text field to write the content of that block. \
-Links can be embedded in the text \
-If it's an image, a dropdown selects from available images, or a new one can be uploaded. \
-You can remove and image from available images by selecting it in the dropdown, and clicking remove image. \
-If its a button there is a text field and a link. \
-If it is a printer, there are 5 fields, printer name(text), printer price(text), printer description(text), link(url), and the image(text). the images work similar to other images. If the link is not null, a sales page button appears containing the link. \
-A break is simply a line break and has no fields. \
-For the block you are editing, there is a save, and cancel button. \
-Because this uses the Content Block Pattern, many of the fields in the database are nullable, but there is only one table, making queries much simpler. \
+## Process for User to edit website:
+- The entire webiste is composed of blocks, each one can be one the following: title, heading, subheading, paragraph, image, printer, button, or break. 
+- You can add, edit, or remove a block. 
+- Once a block is added a dropdown selects it's block type. 
+- If it's a title, heading, subheading, paragraph, there is a text field to write the content of that block. 
+- Links can be embedded in the text 
+- If it's an image, a dropdown selects from available images, or a new one can be uploaded. 
+- You can remove and image from available images by selecting it in the dropdown, and clicking remove image. 
+- If its a button there is a text field and a link. 
+- If it is a printer, there are 5 fields, printer name(text), printer price(text), printer description(text), link(url), and the image(text). the images work similar to other images. If the link is not null, a sales page button appears containing the link. 
+- A break is simply a line break and has no fields. 
+- For the block you are editing, there is a save, and cancel button. 
+- Because this uses the Content Block Pattern, many of the fields in the database are nullable, but there is only one table, making queries much simpler. 
